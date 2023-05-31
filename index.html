@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    h1 {
-        background-color: rgb(45, 45, 255);
-        border: double 4px rgb(28, 165, 28);
-        padding: 100px; ;
-        margin: 10px;
-    }
+        h2 {
+            color: red;
+        }
     </style>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <div id="encabezado">
@@ -46,46 +44,90 @@
             <li>Republica Dominicana</li>
         </ol>
     </div>
-    <table border="2px">
-        <tr>
-            <th colspan="6">Temperatura: San Justo</th>
-        </tr>
-        <tr>
-            <th>Hora</th>
-            <th>Lunes</th>
-            <th>Martes</th>
-            <th>Miercoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-        </tr>
-        <tr>
-            <td>7:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>8:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>9:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th colspan="6">Fuente: infoclima</th>
-        </tr>
-    </table>
+    <div id="TablaTemperatura">
+        <table border="2px" style="background-color: coral;">
+            <tr>
+                <th colspan="6">Temperatura: San Justo</th>
+            </tr>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>7:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th colspan="6">Fuente: infoclima</th>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div id="TablaTemas">
+        <table border="2px">
+            <tr>
+                <th rowspan="3">Ingenieria 2023</th>
+                <th colspan="3">Temas</th>
+            </tr>
+            <tr>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>Javascript</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Etiquetas en linea</li>
+                        <li>Etiqueta de bloque</li>
+                        <li>Referencias relativas y absulutas</li>
+                        <li>Etiquetas semanticas</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Selectores</li>
+                        <li>Modelo de cajas</li>
+                        <li>Ubicación</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Sintaxis</li>
+                        <li>Funciones</li>
+                        <li>Librerias</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4">Instituto N°20</th>
+            </tr>
+        </table>
+    </div>
+
     <!--este tipo de DIV fue reemplazado por la etiqueta footer-->
     <div id="pieDePagina">
         <p>Texto final de la pagina web</p>
