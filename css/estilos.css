@@ -1,5 +1,8 @@
-h1 {
-    background-color: rgb(45, 45, 255);
+*{
+    color: rgb(52, 52, 52);
+}
+h1,h2,h3 {
+    background-color: rgb(95, 95, 255);
     border: double 4px rgb(28, 165, 28);
     padding: 100px; ;
     margin: 10px;
@@ -10,4 +13,36 @@ h1 {
     margin: 10px;
     background-color: palevioletred;
     border-radius: 20px;
+}
+p span {
+    border: double 4px magenta;
+    background-color: lawngreen;
+}
+#etiquetasDeBloques ul li{
+    text-decoration: underline;
+    color: purple;
+}
+.destacado{
+    background-color: rgb(220, 117, 7);
+    transition: width 1s ease-in-out;
+}
+.destacado:hover {
+    background-color: blue;
+}
+div > p {
+    font-style: italic;
+}
+li + li {
+    background-color: yellow;
+}
+img[width] {
+    border-radius: 40px;
+    border: solid 1px black;
+}
+a[target="_black"]{
+    text-transform: uppercase;
+    color: red;
+}
+*[border~="double"]{
+    color: aquamarine !important;
 }

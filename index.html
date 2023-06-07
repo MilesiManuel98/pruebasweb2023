@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h2 {
-            color: red;
-        }
-    </style>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -26,12 +21,11 @@
     <p>Probamos la etiqueta A que permite crear enlaces</p>
     <p>Creamos un enlace a Clarin</p>
     <!--comentario no influllente-->
-    <a href="https://www.clarin.com" target="_blank"><img src="imgs/Horarios.jpeg" alt="Imagen de los Horarios"width="800px"></a>
-
+    <a href="https://www.clarin.com" target="_blank"><img src="imgs/Horarios.jpeg" alt="Imagen de los Horarios"height="300px"></a>
     <div id="etiquetasDeBloques">
-        <p>Paises que juegan en la zona de Argentina en el Mundial Sub 20</p>
+        <p><span>Paises que juegan en la zona de <span class="destacado">Argentina</span> en el Mundial Sub 20</span></p>
         <ul>
-            <li>Argentina</li>
+            <li class="destacado">Argentina</li>
             <li>Nueva Zelanda</li>
             <li>Guatemala</li>
             <li>Uzbequistan</li>
@@ -44,6 +38,7 @@
             <li>Republica Dominicana</li>
         </ol>
     </div>
+    <h3>Probando tablas</h3>
     <div id="TablaTemperatura">
         <table border="2px" style="background-color: coral;">
             <tr>
